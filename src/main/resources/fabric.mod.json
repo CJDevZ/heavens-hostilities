@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "skywars",
+  "version": "${version}",
+  "name": "Skywars",
+  "description": "CJ4's Skywars",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/skywars/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.cj4.skywars.impl.Skywars"
+    ]
+  },
+  "mixins": [
+    "skywars.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}",
+    "minigame": "*"
+  }
+}
